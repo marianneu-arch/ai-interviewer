@@ -1,0 +1,15 @@
+{
+  "name": "client-partner-video-interview",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "vercel dev"
+  },
+  "dependencies": {
+    "googleapis": "^144.0.0"
+  },
+  "devDependencies": {
+    "vercel": "^39.2.6"
+  }
+}
