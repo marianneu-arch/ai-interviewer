@@ -17,4 +17,6 @@ This is a Vercel-ready version of the video interview app. It avoids the Google 
 - Candidate link: `https://your-domain.vercel.app/`
 - Admin link: `https://your-domain.vercel.app/?mode=admin&token=YOUR_ADMIN_TOKEN`
 
-Admin mode lets you upload or record question prompt videos. Candidate mode records answers and writes the final row to Google Sheets.
+Admin mode lets you upload, record, preview, and replace question prompt videos. Prompt video IDs are saved automatically in a `Prompt Videos` sheet tab, so you do not need to add `PROMPT_Q*_ID` environment variables or redeploy after changing prompts.
+
+Candidate mode records answers and writes the final row to Google Sheets.
